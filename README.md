@@ -1,20 +1,26 @@
 # workday-scheduler
 
-User Story
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+This is a web application that allows you to plan your day by scheduling tasks in hourly time blocks. It uses local storage to save your input and displays the current date and time.
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+## Technologies Used
+This application uses the following technologies:
+
+HTML
+CSS
+JavaScript
+jQuery
+Day.js
+Installation
+To run this application, you can simply open the index.html file in your web browser.
+
+### Usage
+Once you open the application, you will see a table with time blocks for each hour of the day, from 9am to 5pm. You can type your tasks or notes for each hour into the corresponding text area.
+
+To save your input, click the save button on the right side of the time block. Your input will be saved in local storage, so it will be available even if you close the application or refresh the page.
+
+The time blocks will be color-coded based on the current time:
+
+Past hours will be red
+The current hour will be grey
+Future hours will be green
+The current date and time will be displayed in the header of the page.
