@@ -27,4 +27,3 @@ The current date and time will be displayed in the header of the page.
 
 ![](/assets/images/work-day.png)
 
-[https://miguela14.github.io/workday-scheduler/]
