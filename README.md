@@ -10,8 +10,6 @@ CSS
 JavaScript
 jQuery
 Day.js
-Installation
-To run this application, you can simply open the index.html file in your web browser.
 
 ## Usage
 Once you open the application, you will see a table with time blocks for each hour of the day, from 9am to 5pm. You can type your tasks or notes for each hour into the corresponding text area.
@@ -27,3 +25,4 @@ The current date and time will be displayed in the header of the page.
 
 ![](/assets/images/work-day.png)
 
+[https://miguela14.github.io/workday-scheduler/]
